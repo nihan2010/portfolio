@@ -14,14 +14,13 @@ export function Footer() {
                 <Link href="tel:+918547137703" target="_blank" rel="noopener noreferrer" aria-label="Call Nihan" className="hover:text-primary transition-colors">
                     <Phone size={20} />
                 </Link>
-                 {/* Add actual links when available */}
-                <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="Nihan on LinkedIn" className="hover:text-primary transition-colors">
+                <Link href="https://www.linkedin.com/in/nihan-najeeb-b287b22b9/" target="_blank" rel="noopener noreferrer" aria-label="Nihan on LinkedIn" className="hover:text-primary transition-colors">
                     <Linkedin size={20} />
                 </Link>
                 <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="Nihan on GitHub" className="hover:text-primary transition-colors">
                     <Github size={20} />
                 </Link>
-                <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="Nihan on Instagram" className="hover:text-primary transition-colors">
+                <Link href="https://www.instagram.com/nhnneei" target="_blank" rel="noopener noreferrer" aria-label="Nihan on Instagram" className="hover:text-primary transition-colors">
                     <Instagram size={20} />
                 </Link>
             </div>

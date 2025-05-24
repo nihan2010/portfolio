@@ -17,7 +17,7 @@ export function Footer() {
                 <Link href="https://www.linkedin.com/in/nihan-najeeb-b287b22b9/" target="_blank" rel="noopener noreferrer" aria-label="Nihan on LinkedIn" className="hover:text-primary transition-colors">
                     <Linkedin size={20} />
                 </Link>
-                <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="Nihan on GitHub" className="hover:text-primary transition-colors">
+                <Link href="https://github.com/nihan2010" target="_blank" rel="noopener noreferrer" aria-label="Nihan on GitHub" className="hover:text-primary transition-colors">
                     <Github size={20} />
                 </Link>
                 <Link href="https://www.instagram.com/nhnneei" target="_blank" rel="noopener noreferrer" aria-label="Nihan on Instagram" className="hover:text-primary transition-colors">

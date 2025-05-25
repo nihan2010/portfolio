@@ -3,11 +3,9 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   output: 'export', // This tells Next.js to export a static site
-  trailingSlash: true, // Optional: Add a trailing slash to all paths `/about` -> `/about/`
-  // Optional: Change the output directory `out` -> `dist`
-  // distDir: 'dist',
+  trailingSlash: true, // Ensures URLs like /about/ are generated, often better for static hosts
   images: {
-    unoptimized: true, // Important for static exports if not using a Next.js compatible image optimization service
+    unoptimized: true, // Necessary for static exports as Next.js image optimization requires a server
     remotePatterns: [
       {
         protocol: 'https',
